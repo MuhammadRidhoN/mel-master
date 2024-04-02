@@ -1,0 +1,142 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header styles */
+header {
+    background-color: #1A8FEB;
+    color: #1A8FEB;
+    padding: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul img{
+    height: 58px;
+    width: 97px;
+}
+nav ul li a {
+    position: relative;
+    top: 15%;
+    color: #fff;
+    text-decoration: none;
+    font-size: 26px;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.hero {
+    position: relative;
+    image-resolution: 1080;
+    background-image: url('1.png');
+    background-size: cover;
+    background-color: #1A8FEB;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.about{
+    position: relative;
+}
+
+.about h2{
+    position: absolute;
+    font-size: 30px;
+    left: 63%;
+    top: 53%;
+    color: #1A8FEB;
+}
+
+.about p{
+    position: absolute;
+    font-size: 24px;
+    left: 63%;
+    top: 68%;
+    color: #1A8FEB;
+}
+
+.about img{
+    position: relative;
+    top: 20%;
+    left: 5%;
+    border-radius: 24px;
+    width: 679px;
+    height: 486px;
+}
+
+.blog {
+    position: relative;
+}
+
+.blog h2{
+    position: relative;
+    color: #1A8FEB;
+    left:5%;
+    top: 0%;
+}
+.blog-post {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-post img {
+    position:relative ;
+    top: 90%;
+    left: 13%;
+    max-width: 200px;
+    border-radius: 24px;
+}
+
+.blog-post h3{
+    position: relative;
+    right: 14%;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+}
+
+.functional-knowledge ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.functional-knowledge li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
